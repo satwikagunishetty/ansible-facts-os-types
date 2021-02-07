@@ -1,0 +1,3 @@
+<h1 style="color:Tomato"> WELCOME TO {{ansible_facts['distribution']}}-{{ansible_facts['distribution_major_version'] }} WEBSERVER </h1>
+
+<h2 style="color:DodgerBlue">PRIVATE-Ip address of your os is {{ ansible_facts['eth0']['ipv4']['address'] }} </h2>
